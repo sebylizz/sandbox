@@ -1,0 +1,80 @@
+body{
+  background-color: lightgrey;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  box-shadow: -4px 4px gray;
+  background-color: grey;
+  width: 700px;
+  height: 700px;
+  border: 3px solid peachpuff;
+  margin: 10px auto;
+  display: grid;
+}
+
+h1
+{
+  font-size: 42px;
+  text-shadow: -1px -1px rgb(118, 118, 118), 1px 1px rgb(113, 113, 113), -3px 0 4px #000;
+  font-family: "Courier New";
+  color: peachpuff;
+  padding:16px;
+  font-weight:bold;
+  text-align:center;
+  display:block;
+  margin:16px;
+}
+
+.row {
+  width:700px;
+  height:7px;
+  display: inline-flex;
+}
+
+.item {
+  width:8px;
+  height:8px;
+  background-color: gray;
+}
+
+.container:hover {
+  cursor: crosshair;
+}
+
+.buttons{
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons button{
+  box-shadow: -4px 4px gray;
+  background-color: peachpuff;
+  padding: 2px 15px;
+  border-radius: 5px;
+  transition-duration: 0.6s;
+  font-size: 25px;
+  font-family: "Courier New";
+}
+
+.buttons button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+.gridsize {
+  box-shadow: -4px 4px gray;
+  background-color: peachpuff;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: "Courier New";
+  width: 100px;
+}
